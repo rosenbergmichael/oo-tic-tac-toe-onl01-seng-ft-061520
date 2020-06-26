@@ -89,4 +89,4 @@ class TicTacToe
   
 end   
 
-game = 
+game = TicTacToe.new 
