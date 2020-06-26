@@ -85,7 +85,7 @@ class TicTacToe
  def play
     until over?
       turn
-
+ end 
 
     if won?
       winner = winner()
@@ -99,5 +99,5 @@ end
 
 game = TicTacToe.new 
 game.play 
-end 
+
  
